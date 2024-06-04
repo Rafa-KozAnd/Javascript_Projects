@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#app {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+#repoListContainer {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#repoList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.repo {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.repo a {
+    text-decoration: none;
+    color: #0366d6;
+}
+
+.repo a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#app {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+#weatherContainer {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.weather {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.weather h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.weather p {
+    margin: 5px 0;
+}

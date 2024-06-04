@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão Financeira Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Gestão Financeira Pessoal</h1>
+        <div id="balance">
+            <h2>Saldo Atual: <span id="currentBalance">R$ 0,00</span></h2>
+        </div>
+        <div id="transactionForm">
+            <input type="text" id="description" placeholder="Descrição">
+            <input type="number" id="amount" placeholder="Valor">
+            <select id="transactionType">
+                <option value="income">Receita</option>
+                <option value="expense">Despesa</option>
+            </select>
+            <button id="addTransactionButton">Adicionar Transação</button>
+        </div>
+        <div id="transactionList">
+            <h2>Transações</h2>
+            <ul id="transactions"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
